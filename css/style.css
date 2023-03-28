@@ -1,0 +1,95 @@
+
+/* * {
+  box-sizing: border-box;
+} */
+
+/* #profile-pic {
+  size: 30px;
+  border-radius: 100%;
+
+}
+
+.main-box{
+position: absolute;
+right: 40%;
+top: 30%;
+} */
+
+/* div {
+  background-color: ;
+} */
+
+main, div, footer, header {
+  /* border: 1px solid black; */
+}
+/* 
+container {
+display: flex;
+
+} */
+
+main {
+  width: 300px;
+}
+
+header {
+  height: 200px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+main.rating {
+  height: 100px;
+  background-color: #f3f3f3;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+div.billing{
+  height: 125px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  line-height: 5px;
+}
+
+footer {
+  height: 75px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  border: 0;
+}
+.phone{
+  width: 50%;
+  background-color: #9DC08B;
+}
+.bubbles{
+  width: 50%;
+  background-color: #609966;
+}
+
+img {
+  width: 100px;
+  border-radius: 50px ;
+  border: 3px solid green;
+}
+body{
+  background-color: #0f5f60 
+} 
+
+footer > div {
+  width: 50%;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
